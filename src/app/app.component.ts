@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+
+//decorator
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'demo1';
+  firstName = "Engin";
+
+  clicked(){
+    console.log("clicked button")
+  }
+
 }
