@@ -21,8 +21,4 @@ export class ProductService {
     console.log(this.apiUrl+"?categoryId="+categoryId)
     return this.httpClient.get<Product[]>(this.apiUrl+"?categoryId="+categoryId);
  }
-
-
 }
-
-//14.05
