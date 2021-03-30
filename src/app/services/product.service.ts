@@ -23,7 +23,7 @@ export class ProductService {
     return this.httpClient.get<Product[]>(this.apiUrl + "?categoryId=" + categoryId);
   }
 
-  add(product: Product) {
+  add(product: Product):Observable<any> {
      return this.httpClient.post(this.apiUrl,product);
   }
 

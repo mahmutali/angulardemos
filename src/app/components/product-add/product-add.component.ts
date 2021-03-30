@@ -31,6 +31,7 @@ export class ProductAddComponent implements OnInit {
   add(){
     if(this.productAddForm.valid){
       this.productService.add(this.productAddForm.value).subscribe(response=>{
+        console.log(response)
         this.toastrService.success("Ürün eklendi","Başarılı")
       })
      

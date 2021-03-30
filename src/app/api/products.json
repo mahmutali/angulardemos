@@ -937,6 +937,13 @@
       "unitPrice": 8,
       "unitsInStock": 3,
       "id": 78
+    },
+    {
+      "name": "Armut",
+      "categoryId": "3",
+      "unitPrice": 9,
+      "unitsInStock": 3,
+      "id": 79
     }
   ],
   "categories": [
