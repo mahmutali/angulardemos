@@ -8,7 +8,7 @@ import { Category } from '../models/category';
 })
 export class CategoryService {
 
-  apiUrl :string ="http://localhost:3001/categories";
+  apiUrl :string ="http://localhost:3000/categories";
 
   constructor(private httpClient:HttpClient) { }
 
