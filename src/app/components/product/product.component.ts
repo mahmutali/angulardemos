@@ -7,7 +7,8 @@ import { ProductService } from 'src/app/services/product.service';
 @Component({
   selector: 'app-product',
   templateUrl: './product.component.html',
-  styleUrls: ['./product.component.css']
+  styleUrls: ['./product.component.css'],
+  providers:[]
 })
 export class ProductComponent implements OnInit {
 
@@ -15,8 +16,7 @@ export class ProductComponent implements OnInit {
   products:Product[];
   productsLoaded:boolean=false;
 
-  constructor(private activatedRoute:ActivatedRoute,
-     private productService:ProductService) { }
+  constructor(private activatedRoute:ActivatedRoute, private productService: ProductService) { }
 
   ngOnInit(): void {
       this.activatedRoute.params.subscribe(params=>{

@@ -23,10 +23,3 @@ export class ProductService {
 
 
 }
-
-
-//{
-  data:[],
-  success:true,
-  message:"dfgdh"
-}
