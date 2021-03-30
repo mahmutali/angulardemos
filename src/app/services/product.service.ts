@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Product } from '../models/product';
 
+//observable
 @Injectable({
   providedIn: 'root'
 })
@@ -23,3 +24,5 @@ export class ProductService {
 
 
 }
+
+//14.05

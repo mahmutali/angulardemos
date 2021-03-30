@@ -10,14 +10,16 @@ import { NaviComponent } from './components/navi/navi.component';
 import { ProductComponent } from './components/product/product.component';
 import { CategoryComponent } from './components/category/category.component';
 import { ProductService } from './services/product.service';
-import {ToastrModule} from "ngx-toastr"
+import {ToastrModule} from "ngx-toastr";
+import { CartSummaryComponent } from './components/cart-summary/cart-summary.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     NaviComponent,
     ProductComponent,
-    CategoryComponent
+    CategoryComponent,
+    CartSummaryComponent
   ],
   imports: [
     BrowserModule,
