@@ -17,6 +17,7 @@ export class ProductComponent implements OnInit {
   currentCategory:number;
   products:Product[];
   productsLoaded:boolean=false;
+  filterText:string;
 
   constructor(private activatedRoute:ActivatedRoute, 
     private productService: ProductService,

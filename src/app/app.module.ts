@@ -11,7 +11,9 @@ import { ProductComponent } from './components/product/product.component';
 import { CategoryComponent } from './components/category/category.component';
 import { ProductService } from './services/product.service';
 import {ToastrModule} from "ngx-toastr";
-import { CartSummaryComponent } from './components/cart-summary/cart-summary.component'
+import { CartSummaryComponent } from './components/cart-summary/cart-summary.component';
+import { VatAddedPipe } from './pipes/vat-added.pipe';
+import { FilterPipePipe } from './pipes/filter-pipe.pipe'
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { CartSummaryComponent } from './components/cart-summary/cart-summary.com
     NaviComponent,
     ProductComponent,
     CategoryComponent,
-    CartSummaryComponent
+    CartSummaryComponent,
+    VatAddedPipe,
+    FilterPipePipe
   ],
   imports: [
     BrowserModule,
